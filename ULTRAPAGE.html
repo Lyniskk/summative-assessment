@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-image: url('https://cdna.artstation.com/p/assets/images/images/082/352/122/large/orhun-perker-v1-ultrakill.jpg?1732737157');
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+        }
+
+        h1 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            color: white;
+        }
+
+        a {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            font-size: xx-large;
+            color: white;
+        }
+
+        p {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: x-large;
+            color: white;
+            transition: transform 0.3s ease;
+        }
+
+        .topnav {
+            background-color: #000;
+            overflow: hidden;
+            border-radius: 15px;
+            margin: 10px 20px;
+            padding: 10px 0;
+        }
+
+        .topnav a {
+            float: left;
+            color: aliceblue;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            transition: background-color 0.25s ease, color 0.25s ease;
+        }
+
+        .topnav a:hover {
+            background-color: #ff1900;
+            color: rgb(0, 0, 0);
+        }
+
+        .topnav-right {
+            float: right;
+        }
+
+        .content-section {
+            display: flex;
+            justify-content: left;
+            align-items: flex-start;
+            gap: 30px;
+            margin: 40px;
+        }
+
+        .main-image {
+            width: 550px;
+            height: auto;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .main-image:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+        }
+
+        .textbox {
+            background-color: rgba(91, 0, 0, 0.6);
+            border-radius: 20px;
+            width: 700px;
+            padding: 25px;
+            color: white;
+            font-size: 18px;
+            line-height: 1.6;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .textbox:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+        }
+
+        .text-only {
+            margin: 40px;
+            font-size: 20px;
+            line-height: 1.8;
+            color: white;
+            max-width: 85%;
+            transition: transform 0.3s ease;
+        }
+
+        .text-only:hover {
+            transform: scale(1.02);
+        }
+
+        .video-container {
+            margin: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 30px;
+        }
+
+        .video-container iframe {
+            width: 800px;
+            height: 450px;
+            border: none;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .video-container iframe:hover {
+            transform: scale(1.03);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+        }
+
+        .video-fact {
+            font-size: 18px;
+            color: white;
+            max-width: 250px;
+            line-height: 1.6;
+            transition: transform 0.3s ease;
+        }
+
+        .video-fact:hover {
+            transform: scale(1.05);
+        }
+    </style>
+
+    <meta charset="UTF-8" />
+    <title>ULTRAPAGE</title>
+</head>
+<body>
+    <div class="content">
+        <div class="header"></div>
+    </div>
+    <div class="topnav">
+        <h1><b>Hakita's "ULTRAKILL"</b></h1>
+        <a class="active" href="Homepage.html">Home</a>
+        <div class="topnav-right">
+            <a href="Author Info.html">Author Info</a>
+            <a href="ULTRAPAGE.html">ULTRAKILL</a>
+            <a href="DELTAPAGE.html">DELTARUNE</a>
+            <a href="BATTLEPAGE.html">BATTLEFINDERS</a>
+        </div>
+    </div>
+
+    <div class="content-section">
+        <img class="main-image" src="https://i.ppy.sh/d2b2e2deee8a8a70b64d973117cf3266edcef876/68747470733a2f2f64656661756c742e732d756c2e65752f6d38736276323958" alt="mankind is dead">
+        
+        <div class="textbox">
+            <p>
+                <b>What is ULTRAKILL?</b>
+            </p>
+            <p>
+                ULTRAKILL is a fast-paced ultraviolent retro-style FPS developed by Arsi "Hakita" Patala. Inspired by other shooters like Doom, Quake, and Devil May Cry, it has fast paced gameplay, unique weapon combos, and most importantly, SPEEDRUN STRATEGIES!! 
+            </p>
+        </div>
+    </div>
+
+    <div class="text-only">
+        <p>
+            The video below shows a video on Youtube by Kolta speedrunning through the level "7-4 // LIKE ANTENNAS TO HEAVEN". Keep in mind this is the FORMER world record, so there are faster times out there. (Side note, don't worry if you can't understand the gameplay. It's supposed to be confusing. Even I can't really figure out what's going on. Also, be wary of the volume, it's kind of loud.)
+        </p>
+    </div>
+
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/d9f-VrA_GEs" allowfullscreen></iframe>
+        <div class="video-fact">
+            <p><b>Fun fact:</b> The official website for ULTRAKILL used to be "devilmayquake.com".</p>
+        </div>
+    </div>
+</body>
+</html>

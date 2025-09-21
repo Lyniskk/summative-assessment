@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-image: url('https://cdna.artstation.com/p/assets/images/images/069/478/376/large/tanaya-toli-deltarune-illustration-final-background.jpg?1700229966');
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: white;
+        }
+
+        a {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            font-size: xx-large;
+            color: white;
+        }
+
+        p {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: x-large;
+        }
+
+        .topnav {
+            background-color: #000;
+            overflow: hidden;
+            border-radius: 15px;
+            margin: 10px 20px;
+            padding: 10px 0;
+        }
+
+        .topnav a {
+            float: left;
+            color: aliceblue;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            transition: 0.25s ease;
+        }
+
+        .topnav a:hover {
+            background-color: #daefff;
+            color: #000;
+        }
+
+        .topnav-right {
+            float: right;
+        }
+
+        .content-row {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            margin: 30px;
+            gap: 20px;
+        }
+
+        .queen-row {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .queen-image, .kris-image {
+            border-radius: 15px;
+            transition: transform 0.3s ease;
+        }
+
+        .queen-image:hover, .kris-image:hover {
+            transform: scale(1.15);
+        }
+
+        .queen-image {
+            width: 150px;
+            height: auto;
+        }
+
+        .kris-image {
+            width: 100px;
+            height: auto;
+        }
+
+        .textbox, .textbox2, .fun-fact, .video-box {
+            transition: transform 0.3s ease;
+        }
+
+        .textbox:hover, .textbox2:hover, .fun-fact:hover, .video-box:hover {
+            transform: scale(1.05);
+        }
+
+        .textbox {
+            background-color: rgba(0, 0, 128, 0.85);
+            color: white;
+            border-radius: 15px;
+            padding: 20px;
+            max-width: 350px;
+            line-height: 1.2;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+
+        .textbox2 {
+            background-color: rgba(0, 0, 128, 0.85);
+            color: white;
+            border-radius: 15px;
+            padding: 20px;
+            line-height: 1.4;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            margin: 30px 0;
+            flex: 1;
+        }
+
+        .fun-fact {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: large;
+            color: white;
+            max-width: 300px;
+            padding: 15px;
+            border-radius: 10px;
+            background-image: url('https://i.imgflip.com/8j1zli.png');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .video-box {
+            flex: 1;
+        }
+
+        .video-box iframe {
+            width: 100%;
+            height: 315px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+        }
+    </style>
+
+    <meta charset="UTF-8" />
+    <title>DELTAPAGE</title>
+</head>
+<body>
+    <div class="topnav">
+        <h1><b>Toby Fox's "Deltarune"</b></h1>
+        <a class="active" href="Homepage.html">Home</a>
+        <div class="topnav-right">
+            <a href="Author Info.html">Author Info</a>
+            <a href="ULTRAPAGE.html">ULTRAKILL</a>
+            <a href="DELTAPAGE.html">DELTARUNE</a>
+            <a href="BATTLEPAGE.html">BATTLEFINDERS</a>
+        </div>
+    </div>
+
+    <div class="content-row">
+        <div class="queen-row">
+            <img class="queen-image" 
+                 src="https://static.wikia.nocookie.net/deltarune/images/e/ec/Queen_overworld_static.png/revision/latest/scale-to-width/360?cb=20220213051616" 
+                 alt="Queen Deltarune">
+            <div class="textbox">
+                <p>"Kris Get The Banana"</p>
+                <p>- Queen DELTARUNE</p>
+            </div>
+        </div>
+
+        <div class="video-box">
+            <iframe src="https://www.youtube.com/embed/JJWXlVClFt0" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+            </iframe>
+        </div>
+
+        <div class="fun-fact">
+            <p><b>Fun fact:</b> For UNDERTALE's 10th anniversary, Toby Fox streamed himself playing UNDERTALE on September 20–21, 2025 (near today!) and revealed some DELTARUNE updates.</p>
+        </div>
+    </div>
+
+    <div class="content-row">
+        <div class="textbox2">
+            <p><b>What is DELTARUNE?</b></p>
+            <p>
+                DELTARUNE is a JRPG created by Toby Fox, the same developer behind UNDERTALE. The combat system 
+                is almost the same as UNDERTALE, with a [[HeartShapedObject]] acting as the player. Instead of being an 
+                actual sequel, it's an alternate universe set in a world that feels familiar, even having characters from 
+                UNDERTALE. Unlike UNDERTALE, the game is heavily based on the principle of "Your choices don't matter". 
+                For example, killing or sparing the enemies in chapter 1 doesn't change the ending of said chapter.
+            </p>
+        </div>
+        <img class="kris-image" 
+             src="https://static.wikia.nocookie.net/delta-rune/images/5/53/Kris_Overworld_b.png/revision/latest/scale-to-width/360?cb=20181110004135&path-prefix=es" 
+             alt="Kris">
+    </div>
+</body>
+</html>
