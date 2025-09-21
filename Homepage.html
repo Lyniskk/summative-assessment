@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-image: url('https://64.media.tumblr.com/a7d538e0f89485ec894783c7cbbdef31/d58c9abe1324de1f-d6/s1280x1920/e81252e4838121084e4bfb88d500449a324cb9c4.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+        }
+        h1 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            color: white;
+        }
+        a {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            font-size: xx-large;
+            color: white;
+        }
+        .topnav {
+            background-color: #000;
+            overflow: hidden;
+            border-radius: 15px;
+            margin: 10px 20px;
+            padding: 10px 0;
+        }
+        .topnav a {
+            float: left;
+            color: aliceblue;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            transition: .25s ease;
+        }
+        .topnav a:hover {
+            background-color: #0077ff;
+            color: rgb(0, 0, 0);
+        }
+        .topnav-right {
+            float: right;
+        }
+        h1 {
+            margin-bottom: 0;
+            text-align: center;
+        }
+
+        .images-row {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 50px;
+            flex-wrap: wrap;
+        }
+
+        .image-container {
+            position: relative;
+            display: block;
+            width: fit-content;
+            transition: transform 0.3s ease;
+        }
+        .image-container img {
+            display: block;
+            max-width: 400px;
+            border-radius: 15px;
+        }
+        .overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(1);
+            transition: transform 0.3s ease;
+            z-index: 2;
+        }
+        .overlay-text {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 40px;
+            font-weight: bold;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 10px 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .image-container:hover {
+            transform: scale(1.08);
+        }
+        .image-container:hover .overlay {
+            transform: translate(-50%, -50%) scale(1.15);
+        }
+
+        .textbox {
+            max-width: 80%;
+            margin: 60px auto;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 25px 40px;
+            border-radius: 20px;
+            color: white;
+            font-size: 20px;
+            line-height: 1.6;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: justify;
+            transition: transform 0.3s ease;
+        }
+
+        .textbox:hover {
+            transform: scale(1.05);
+        }
+    </style>
+
+    <meta charset="UTF-8" />
+    <title>MY INTERESTS</title>
+</head>
+<body>
+    <div class="content">
+        <div class="header"></div>
+    </div>
+    <div class="topnav">
+        <h1><b>My Hyperfixations</b></h1>
+        <a class="active" href="Homepage.html">Home</a>
+        <div class="topnav-right">
+            <a href="Author Info.html">Author Info</a>
+            <a href="ULTRAPAGE.html">ULTRAKILL</a>
+            <a href="DELTAPAGE.html">DELTARUNE</a>
+            <a href="BATTLEPAGE.html">BATTLEFINDERS</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="images-row">
+            <a href="ULTRAPAGE.html">
+                <div class="image-container">
+                    <img src="https://images.steamusercontent.com/ugc/2473114504631025063/5F8196C50DC1FA0B3DD59BE01DD5C445C955BDCA/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false" alt="apostasy image">
+                    <img class="overlay" src="https://cdn2.steamgriddb.com/logo_thumb/8d3b9f14a28cf0225844a8261b3521c7.png" alt="ultrakill logo">
+                </div>
+            </a>
+
+            <a href="DELTAPAGE.html">
+                <div class="image-container">
+                    <img src="https://images.steamusercontent.com/ugc/2055366392490542181/A34A9F2388599C89D150139EB33924A7B908D153/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false" alt="deltarune fountain image">
+                    <img class="overlay" src="https://cdn2.steamgriddb.com/logo_thumb/292d0f1d6599932932ba56622d1a3c1a.png" alt="deltarune logo">
+                </div>
+            </a>
+
+            <a href="BATTLEPAGE.html">
+                <div class="image-container">
+                    <img src="https://yt3.googleusercontent.com/KCaw9ald_g7c529sO5lVMTfm6invEAHeYo4DCm_coujmg4sYn-an23aTTAZpPRaT2qq5mGSLvQ=s900-c-k-c0x00ffffff-no-rj" alt="battlefinders image">
+                    <div class="overlay overlay-text">BATTLEFINDERS</div>
+                </div>
+            </a>
+        </div>
+
+        <div class="textbox">
+            <p>
+                This is a few of my (CURRENT) hyperfixations right now. Currently, my favorite one is The Battlefinders by Lann. Very underrated series. Anyways, feel free to click on the buttons above to discover more information! (but ONLY if you're interested. I don't want it to feel like a chore)
+            </p>
+        </div>
+    </div>
+</body>
+</html>
